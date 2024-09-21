@@ -1,0 +1,215 @@
+/* Beginning of CSS Reset */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End of CSS Reset */
+
+body {
+    background-color: #921A40;
+    font-family: "Kanit", sans-serif, arial;
+    font-weight: 400;
+}
+
+h1, h2, h3 {
+    font-family: "Urbanist", sans-serif, arial;
+    color: #ffffff;
+    line-height: 135%;
+    letter-spacing: .05em;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+article>p {
+    line-height: 135%;
+    letter-spacing: .05em;
+}
+
+header {
+    background-color: #000000;
+    padding: 3%;
+    color: #ffffff;
+}
+#main-container {
+    width: 80.56640625%;
+    margin: 0 auto;
+    background-color: #F4D9D0;
+}
+
+#top-section {
+    width: 81.0757575758%;
+    margin: 3% auto 4% auto;
+    padding: 1.5% 2.25% 3.5% 2.25%;
+    background-color: #DB9C9C;
+    overflow: hidden;
+}
+
+.top-figure {
+    float: left;
+    width: 40%;
+}
+
+.top-table {
+    float: left;
+    width: 58%;
+    margin-left: 2%;
+    font-size: 1.5em;
+    background-color: #000000;
+    margin: auto;
+}
+
+nav {
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #000000;
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 85.575757575%;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 2%;
+}
+
+#main-content {
+    width: 59.393939393%;
+    float: left;
+    margin: 2%;
+}
+
+#side-section {
+    width: 32.606060606%;
+    float: left;
+    margin: 2%;
+}
+
+.side-figure {
+    width: 88.079470198%;
+    margin: 0 auto;
+}
+    
+figure img {
+    max-width: 100%;
+}
+
+footer {
+    clear: left;
+    padding: 2%;
+}
+
+footer p {
+    margin: 0 auto;
+}
+
+#top-section h2 {
+    margin-bottom: 2%;
+}
+
+p {
+    margin: 2.5% 0;
+}
+
+cite {
+    font-style: italic;
+}
+
+nav a:hover {
+    color: #666666;
+}
+
+nav a {
+    color: #ffffff;
+}
+
+a {
+    color: #000000;
+}
+
+table {
+    background-color: #000000;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+thead, tbody, tfoot {
+    background-color: #ffa7a6;
+    border: 2px solid #000000;
+}
+
+tr, td {
+    text-align: left;
+    border: 2px solid #000000;
+}
+
+.specialCells {text-align: center;
+}
+
+.resize {
+    max-width: 80%;
+}
+
+blockquote {
+    font-size: 1.75em;
+    font-family: "Kanit", sans-serif, arial;
+}
